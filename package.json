@@ -4,7 +4,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "echo message showing previously a commit command"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
