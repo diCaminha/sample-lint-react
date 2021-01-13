@@ -4,8 +4,13 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "echo message showing previously a commit command",
+      "pre-commit": "echo message showing previously a commit command"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      
+    ]
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -41,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.7"
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3"
   }
 }
