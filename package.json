@@ -8,9 +8,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      
-    ]
+    "*.js": []
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -46,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0",
     "husky": "^4.3.7",
     "lint-staged": "^10.5.3"
   }
